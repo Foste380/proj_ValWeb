@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'ValoFontTitle' ;
+    src: url(font/Valorant_Font.ttf);
+}
+
+@font-face {
+    font-family: 'ValoFont';
+    src: url(font/Reyna_Regular.ttf)
+}
+
+body {
+    background-image: url(../image/Background_1.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-origin: border-box;
+}
+
+h1{
+    font-family: 'ValoFontTitle';
+    font-size: 500%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+p{
+    font-family: 'ValoFont';
+    font-size: 30px;
+    margin-top: 0px;
+    color: #ccb48a;
+}
+
+.title{
+    margin-left: 5px;
+    display: block;
+    color : #f97350;
+}
