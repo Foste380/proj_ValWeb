@@ -17,9 +17,10 @@ body {
 
 h1{
     font-family: 'ValoFontTitle';
-    font-size: 500%;
+    font-size: 80px;
     margin-top: 20px;
     margin-bottom: 0px;
+    color : #f97350;
 }
 
 p{
@@ -29,8 +30,32 @@ p{
     color: #ccb48a;
 }
 
+li{
+    font-family: 'ValoFontTitle';
+    font-size: 50px;
+    font-weight: bold;
+    color : #000000;
+    margin-bottom: 30px;
+    width: 350px;
+}
+
 .title{
     margin-left: 5px;
     display: block;
-    color : #f97350;
+}
+
+.GrTtr{
+    margin-left: 20px;
+    margin-top: 40px;
+    height: 360px;
+    width: 420px;
+    display: block;
+    padding: 10px;
+    border-top:solid 5px #f97350;
+    border-bottom: solid 5px #f97350;
+    overflow: auto;
+}
+
+.GrTtr::-webkit-scrollbar{
+    width: 0;
 }
